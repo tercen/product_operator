@@ -1,0 +1,10 @@
+{
+  "name": "Sum",
+  "description": "Compute the sum per cell",
+  "tags": ["simple arithmetic"],
+  "authors": ["tercen"],
+  "urls": ["https://github.com/tercen/multiplication_operator"],
+  "properties": []
+}
+
+
