@@ -1,6 +1,6 @@
 {
-  "name": "Sum",
-  "description": "Compute the sum per cell",
+  "name": "Multiplicaton",
+  "description": "Compute the multiplication of two values per cell",
   "tags": ["simple arithmetic"],
   "authors": ["tercen"],
   "urls": ["https://github.com/tercen/multiplication_operator"],
