@@ -5,21 +5,15 @@
 
 ##### Usage
 
-Input projection
-
-.|.
+Input projection|.
 ---|---
 `y-axis`           | is the input data for the multiplication per cell 
 
-Input parameters
-
-.|.
+Input parameters|.
 ---|---
 `remove NA`        | boolean, default is `FALSE`
 
-Output relations
-
-.|.
+Output relations|.
 ---|---
 `product`          | numeric, product of the input values
 
