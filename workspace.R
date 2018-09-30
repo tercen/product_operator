@@ -10,10 +10,12 @@ options("tercen.stepId"= "15-8")
 getOption("tercen.workflowId")
 getOption("tercen.stepId")
 
+
+
 (ctx = tercenCtx())  %>% 
   select(.y, .ci, .ri) %>% 
   group_by(.ci, .ri) %>%
-  summarise(product = (.y[1]) * (.y[2])) %>%
+  summarise(product = prod(.y)) %>%
   ctx$addNamespace() %>%
   ctx$save()
 

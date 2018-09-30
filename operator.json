@@ -1,10 +1,17 @@
 {
-  "name": "Multiplicaton",
-  "description": "Compute the multiplication of two values per cell",
+  "name": "product",
+  "description": "Compute the product (i.e. multiplication) of all datapoints in a  cell",
   "tags": ["simple arithmetic"],
   "authors": ["tercen"],
-  "urls": ["https://github.com/tercen/multiplication_operator"],
-  "properties": []
+  "urls": ["https://github.com/tercen/product_operator"],
+  "properties": [
+  {
+    "kind": "BooleanProperty",
+    "name": "remove NA",
+    "defaultValue": true,
+    "description": "A logical variable indicating whether to remove NA"
+  }
+  ]
 }
 
 
