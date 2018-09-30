@@ -1,7 +1,7 @@
-# product
+# product operator
 
 ##### Description
-`product` (i.e. multiplication) operator computes the product of a set of points.
+`product` operator computes the product (i.e. multiplication) of a set of points.
 
 ##### Usage
 
