@@ -1,6 +1,6 @@
 {
-  "name": "product",
-  "description": "Compute the product (i.e. multiplication) of all datapoints in a  cell",
+  "name": "Product",
+  "description": "Calculates the product (i.e. multiplication) of all datapoints in a cell",
   "tags": ["simple arithmetic"],
   "authors": ["tercen"],
   "urls": ["https://github.com/tercen/product_operator"],
