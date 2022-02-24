@@ -1,7 +1,9 @@
 library(tercen)
 library(dplyr)
 
-(ctx = tercenCtx())  %>% 
+ctx <- tercenCtx()
+
+ctx  %>% 
   select(.y, .ci, .ri) %>% 
   group_by(.ci, .ri) %>%
   summarise(product = prod(.y, as.logical(ctx$op.value('remove  NA')))) %>%

@@ -1,18 +1,16 @@
 library(tercen)
 library(dplyr)
 
-options("tercen.serviceUri" = "http://127.0.0.1:5400/api/v1")
-options("tercen.username"= "admin")
-options("tercen.password" = "admin")
+options("tercen.workflowId"= "19975e0adc3267c4665f02d347003604")
+options("tercen.stepId"= "c5f084df-dd2a-449b-8630-00e5b9007f9c")
 
-options("tercen.workflowId"= "8cbf0c70baa1ca94c01872e749088ae6")
-options("tercen.stepId"= "15-8")
 getOption("tercen.workflowId")
 getOption("tercen.stepId")
 
 
+ctx <- tercenCtx()
 
-(ctx = tercenCtx())  %>% 
+ctx  %>% 
   select(.y, .ci, .ri) %>% 
   group_by(.ci, .ri) %>%
   summarise(product = prod(.y)) %>%
