@@ -1,6 +1,6 @@
 {
   "name": "Product",
-  "description": "Calculates the product (i.e. multiplication) of all datapoints in a cell",
+  "description": "Computes the product of all data points in a cell.",
   "tags": [
     "arithmetic"
   ],
