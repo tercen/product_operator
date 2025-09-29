@@ -25,7 +25,28 @@
     "inputSpecs": [
       {
         "kind": "CrosstabSpec",
-        "metaFactors": [],
+        "metaFactors": [
+          {
+            "kind": "MetaFactor",
+            "name": "Row Factor",
+            "type": "",
+            "description": "(Optional) Variable factor such as sample or group of interest.",
+            "ontologyMapping": "variable",
+            "crosstabMapping": "row",
+            "cardinality": "0..n",
+            "factors": []
+          },
+          {
+            "kind": "MetaFactor",
+            "name": "Column Factor",
+            "type": "",
+            "description": "(Optional) Variable factor such as cluster.",
+            "ontologyMapping": "variable",
+            "crosstabMapping": "column",
+            "cardinality": "0..n",
+            "factors": []
+          }
+        ],
         "axis": [
           {
             "kind": "AxisSpec",
