@@ -54,7 +54,7 @@
               {
                 "kind": "MetaFactor",
                 "name": "data",
-                "type": "numeric",
+                "type": "double",
                 "description": "Input data for multiplication per cell",
                 "ontologyMapping": "measurement",
                 "crosstabMapping": "y",
